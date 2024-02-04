@@ -1,0 +1,92 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.cat {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0%;
+  list-style-type: none;
+}
+.p {
+  font-size: 18px;
+  color: #0f172a;
+  font-weight: 500;
+}
+.c-btn {
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 400;
+  border: 0px;
+  outline: none;
+  margin: 0px;
+  margin-bottom: 15px;
+  color: #64748b;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-size: cover;
+}
+.a-cat {
+  color: #0967d2;
+  font-weight: 500;
+}
+.a-rat {
+  color: #0967d2;
+  font-weight: 500;
+}
+.stars {
+  height: 30px;
+  width: 10vw;
+  margin-right: 10px;
+}
+
+.clear-btn {
+  border: 2px solid #0967d2;
+  background-color: transparent;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding: 8px;
+  color: #0967d2;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  border: 3px solid #0967d2;
+  background-size: cover;
+  max-height: 7vh;
+  max-width: 14vw;
+}
+
+.search {
+  height: 7vh;
+  width: 15vw;
+  background-color: #f1f5f9;
+  padding: 10px;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  color: #475569;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.search-box {
+  height: 7vh;
+  width: 17vw;
+  background-color: #f1f5f9;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
